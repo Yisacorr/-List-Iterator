@@ -30,7 +30,7 @@ public class Lab9 {
     public static LinkedList readFile() {
         LinkedList<String> wordList = new LinkedList<>();
         try {
-            String words = "C:\\Users\\Yisacor\\OneDrive\\Desktop\\File\\cecs 277\\lab-9\\src\\lab\\pkg9\\words.txt";
+            String words = "words.txt";
             Scanner s = new Scanner(new File(words));
             while (s.hasNextLine()) {
                 String data = s.nextLine();
